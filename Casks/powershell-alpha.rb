@@ -1,8 +1,8 @@
 cask 'powershell-alpha' do
-  version '6.0.0-alpha.18'
-  sha256 '6644a4e7258fd3733cefbfaa40b21d2077ce953d487bf09bfd0e648d7580e647'
+  version '6.0.0-alpha.17'
+  sha256 'b25b4a9e40ad8d036931ef1f4292805fec048c1ab26f5d9983650784f87d7bc3'
 
-  url "https://github.com/PowerShell/PowerShell/releases/download/v#{version}/powershell-#{version}-osx.10.12-x64.pkg"
+  url "https://github.com/PowerShell/PowerShell/releases/download/v#{version}/powershell-#{version}.pkg"
   appcast 'https://github.com/PowerShell/PowerShell/releases.atom',
           checkpoint: '2cb3e19eaeab7d240d4704ad711771bc7d1f5a23227c133e45ac00e2902543c6'
   name 'PowerShell'
