@@ -11,7 +11,7 @@ cask 'powershell-alpha' do
   depends_on formula: 'openssl'
   depends_on macos: '>= :sierra'
 
-  pkg "powershell-#{version}-osx.10.12-x64.pkg"
+  pkg "powershell-#{version}.pkg"
 
   uninstall pkgutil: 'powershell'
 
